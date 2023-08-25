@@ -28,7 +28,7 @@ func main(){
 		wg.Done()
 	}
 	wg.Add(3)
-	doIncrement("a",10000)
+	doIncrement("a",10)
 	doIncrement("b",10000)
 	doIncrement("a",10000)
 	wg.Wait()
